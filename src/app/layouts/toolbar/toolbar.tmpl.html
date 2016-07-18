@@ -3,8 +3,8 @@
         <md-icon md-font-icon="zmdi zmdi-menu"></md-icon>
     </md-button>
 
-    <h2 hide-xs flex>
-        The Marketplace ...
+    <h2 hide-xs flex >
+        <span ><a href='/#/home'>The Marketplace for Solar</a></span>
         <!-- <span ng-repeat="crumb in vm.breadcrumbs.crumbs">
             <span translate>{{crumb.name}}</span>
             <md-icon md-font-icon="zmdi zmdi-chevron-right" ng-if="!$last"></md-icon>
@@ -26,7 +26,7 @@
         </md-menu-content>
     </md-menu> -->
 
-    <md-button class="md-icon-button toolbar-button animated" ng-click="vm.toggleNotificationsTab(0)" aria-label="side navigation">
+<!--     <md-button class="md-icon-button toolbar-button animated" ng-click="vm.toggleNotificationsTab(0)" aria-label="side navigation">
         <md-icon md-font-icon="zmdi zmdi-email"></md-icon>
         <span class="toolbar-button-badge animated" theme-background="accent" ng-class="{ 'toolbar-button-badge-new' : vm.emailNew }">5</span>
     </md-button>
@@ -34,12 +34,12 @@
     <md-button class="md-icon-button toolbar-button" ng-click="vm.toggleNotificationsTab(1)">
         <md-icon md-font-icon="fa fa-bell-o"></md-icon>
         <span class="toolbar-button-badge" theme-background="accent">2</span>
-    </md-button>
+    </md-button> -->
 
     <md-menu>
         <md-button aria-label="Open user menu" ng-click="$mdOpenMenu()" aria-label="side navigation">
             <img class="toolbar-user-avatar" ng-src="{{vm.currentUser.avatar}}">
-            {{vm.currentUser.displayName}}
+            <!-- {{vm.currentUser.displayName}} --> Aric
         </md-button>
         <md-menu-content width="4">
             <md-menu-item>

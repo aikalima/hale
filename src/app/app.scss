@@ -18,6 +18,27 @@ button, select, html, textarea, input {
 
 // Add your CSS here
 
+.w300 {
+	font-weight:300;
+}
+
+.w400 {
+	font-weight:400;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+  color: #696969;
+}
+
+md-tabs {
+    transition: 0s !important;
+}
+
+
 /**
  *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject
  *  all your sass files automatically

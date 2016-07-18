@@ -10,42 +10,108 @@ do ->
       controllerAs: 'vm'
       data: layout: contentClass: 'layout-column'
     triMenuProvider.addMenu
-      name: 'Contractors'
-      icon: 'fa fa-tree'
+      name: 'Customers'
+      icon: 'zmdi zmdi-face'
       type: 'dropdown'
-      priority: 1.1
+      priority: 0.1
       children: [
         {
-          name: 'Search'
+          name: 'System Info'
           state: 'triangular.home'
           type: 'link'
         }
         {
-          name: 'Top Rated'
+          name: 'Project Status'
+          state: 'triangular.home'
+          type: 'link'
+        }
+        {
+          name: 'Documents'
+          state: 'triangular.home'
+          type: 'link'
+        }
+        {
+          name: 'Support'
           state: 'triangular.home'
           type: 'link'
         }
       ]
     triMenuProvider.addMenu
-      name: 'Utilities'
+      name: 'Contractors'
       icon: 'fa fa-tree'
       type: 'dropdown'
-      priority: 2
-      children: [ {
-        name: 'Search'
-        state: 'triangular.home'
-        type: 'link'
-      } ]
+      priority: 0.2
+      children: [ 
+        {
+          name: 'Company Info'
+          state: 'triangular.home'
+          type: 'link'
+        } 
+        {
+          name: 'Pricing'
+          state: 'triangular.home'
+          type: 'link'
+        } 
+        {
+          name: 'Accounts'
+          state: 'triangular.home'
+          type: 'link'
+        }
+        {
+          name: 'Reporting'
+          state: 'triangular.home'
+          type: 'link'
+        }
+        {
+          name: 'Support'
+          state: 'triangular.home'
+          type: 'link'
+        }   
+    ]
+
+
     triMenuProvider.addMenu
-      name: 'Customers'
-      icon: 'fa fa-tree'
+      name: 'Utilities'
+      icon: 'zmdi zmdi-flower-alt zmdi-hc-2x'
       type: 'dropdown'
-      priority: 2
-      children: [ {
-        name: 'Search'
-        state: 'triangular.home'
-        type: 'link'
-      } ]
+      priority: 0.3
+      children: [ 
+        {
+          name: 'Alerts'
+          state: 'triangular.home'
+          type: 'link'
+        }
+        {
+          name: 'PV Customers'
+          state: 'triangular.home'
+          type: 'link'
+        } 
+        {
+          name: 'NEM List'
+          state: 'triangular.home'
+          type: 'link'
+        } 
+        {
+          name: 'PV Heat Map'
+          state: 'triangular.home'
+          type: 'link'
+        } 
+        {
+          name: 'Reporting'
+          state: 'triangular.home'
+          type: 'link'
+        } 
+        {
+          name: 'Settings'
+          state: 'triangular.home'
+          type: 'link'
+        } 
+        {
+          name: 'Support'
+          state: 'triangular.home'
+          type: 'link'
+        } 
+      ]
     return
 
   'use strict'

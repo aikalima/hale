@@ -1,7 +1,50 @@
-<md-content class="padded-content-page">
+<md-content class="dashboard-container padded-content-page">
     <div layout="row" layout-align="center center">
-        <h2 class="md-display-3" translate>Welcome to SolarHale</h2>
+
+        <h2 class="md-headline w300" translate>
+        	SolarHale is a platform to standardize the information, design and contracts for residential solar customers
+        </h2>
     </div>
+
+    <md-tabs class="md-primary" md-selected="selectedTabIndex" md-dynamic-height="true" md-stretch-tabs="always">
+		    <md-tab label="Own">
+		        <md-content class="md-padding">
+		           <h3 class='w300'>Top Systems</h3>
+		           <md-list >
+							    <md-list-item class="md-2-line" style='padding:5px 0px 5px 0px;'>
+							        <img ng-src="http://sraint.com/wp-content/uploads/2013/06/jeb.jpg" class="md-avatar" " />
+							        <div class="md-list-item-text">
+							            <h3>Fixie Quick</h3>
+							            <p>Brunch kinfolk artisan bitters art party, chambray chillwave pour-over everyday carry cold-pressed. Fanny pack man braid semiotics aesthetic messenger bag, gluten-free everyday carry letterpress vegan sartorial irony pitchfork.</p>
+							        </div>
+							    </md-list-item>
+							    <md-divider ></md-divider>
+							    <md-list-item class="md-2-line md-padding" style='padding:5px 0px 5px 0px;'>
+							        <img ng-src="https://ecoaltenergy.files.wordpress.com/2013/07/professional-solar-panel-installation-toronto-eco-alternative-energy.jpg" class="md-avatar" " />
+							        <div class="md-list-item-text">
+							            <h3>Sustainator</h3>
+							            <p>Messenger bag single-origin coffee ramps, gochujang bespoke bitters plaid banjo selfies shabby chic truffaut hoodie seitan. Pickled wayfarers gluten-free, disrupt try-hard art party polaroid four dollar toast synth butcher fanny pack. Chillwave locavore small batch poutine farm-to-table sustainable aesthetic, listicle artisan</p>
+							        </div>
+							    </md-list-item>
+							    <md-divider ></md-divider>
+							    <md-list-item class="md-2-line md-padding" style='padding:5px 0px 5px 0px;''>
+							        <img ng-src="http://www.byexample.net/library/illustrations/power_system/solar_power_system.jpg" class="md-avatar" " />
+							        <div class="md-list-item-text">
+							            <h3>Homestead Pro</h3>
+							            <p>Brunch distillery intelligentsia food truck you probably haven't heard of them marfa. Trust fund put a bird on it tote bag yuccie, bespoke post-ironic meggings freegan viral offal. Cliche bicycle rights literally, slow-carb iPhone neutra food truck chambray photo booth cornhole chia bespoke thundercats umami kale chips</p>
+							        </div>
+							    </md-list-item>
+
+							</md-list>
+		        </md-content>
+		    </md-tab>
+		    <md-tab label="Rent">
+		        <md-content class="md-padding">
+		            <h3>Community Solar Options</h3>
+		        </md-content>
+		    </md-tab>
+		</md-tabs>
+
 <!--     <div class="margin-20" layout="row" layout-align="center center">
         <ul class="seed-list">
             <li class="md-headline" ng-repeat="test in vm.testData">

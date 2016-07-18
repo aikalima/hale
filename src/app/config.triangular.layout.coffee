@@ -22,9 +22,9 @@ do ->
     triLayoutProvider.setDefaultOption 'toolbarSize', 'default'
     triLayoutProvider.setDefaultOption 'toolbarShrink', true
     triLayoutProvider.setDefaultOption 'toolbarClass', 'full-image-background mb-bg-07'
-    triLayoutProvider.setDefaultOption 'contentClass', 'none'
+    triLayoutProvider.setDefaultOption 'contentClass', 'full-image-background mb-bg-09'
     triLayoutProvider.setDefaultOption 'sideMenuSize', 'hidden'
-    triLayoutProvider.setDefaultOption 'footer', true
+    triLayoutProvider.setDefaultOption 'footer', false
     return
 
   'use strict'
