@@ -1,7 +1,4 @@
 (function() {
-    'use strict';
-
-    angular
-        .module('app.hale.home', [
-        ]);
+  'use strict';
+  angular.module('app.hale.home', []);
 })();

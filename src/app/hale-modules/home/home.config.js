@@ -7,10 +7,10 @@
       url: '/home',
       templateUrl: 'app/hale-modules/home/home.tmpl.html',
       controller: 'HomeController',
-      controllerAs: 'vm',
+      controllerAs: 'home',
       data: {
         layout: {
-          contentClass: 'layout-column'
+          contentClass: 'full-image-background mb-bg-09'
         }
       }
     });
